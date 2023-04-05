@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/akashc/Documents/ai/torch_custom/cuda'
+let g:netrw_dirhist_0='/Users/akashc/Documents/win2023/cs224n/asst5/src'
+let g:netrw_dirhist_9='/Users/akashc/Documents/win2023/cs224n/asst5'
+let g:netrw_dirhist_8='/Users/akashc/Documents/ai/tools'
+let g:netrw_dirhist_7='/Users/akashc/Documents/ai'
+let g:netrw_dirhist_6='/Users/akashc/Documents'
+let g:netrw_dirhist_5='/Users/akashc/Documents/ai'
+let g:netrw_dirhist_4='/Users/akashc/Documents/cs221/foundations'
+let g:netrw_dirhist_3='/Users/akashc/Documents/cs221/.git'
+let g:netrw_dirhist_2='/Users/akashc/Documents/ai'
