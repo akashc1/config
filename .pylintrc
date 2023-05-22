@@ -1,0 +1,15 @@
+[FORMAT]
+
+max-line-length=100
+
+[MESSAGES CONTROL]
+
+disable=
+    invalid-name,
+    missing-class-docstring,
+    missing-function-docstring,
+    missing-module-docstring,
+    pointless-string-statement,
+    too-few-public-methods,
+    unnecessary-lambda-assignment,
+
