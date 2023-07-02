@@ -133,6 +133,7 @@ alias build_ap='tools/autopilot --podman build m3_3 -x86 -j 40 //common/tasks/vi
 alias clean_build='rm -rf bazel-bin bazel-firmware bazel-out bazel-testlogs envs logs'
 
 alias ncpus="python -c 'from infra.constants import N_CPUS_ALLOCATED; print(N_CPUS_ALLOCATED)'"
+alias ngpus="nvidia-smi > /dev/null && nvidia-smi -L | wc -l"
 alias whole_gnode="srun --propagate=NONE --cpus-per-task 252 --ntasks 1 --gres=gpu:1 -p gnode-hi-pri --pty bash"
 alias big_cnode="srun --propagate=NONE --cpus-per-task 252 --ntasks 1 -p cnode --pty bash"
 
